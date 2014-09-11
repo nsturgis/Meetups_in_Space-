@@ -56,7 +56,12 @@ end
 
 get '/meetups/:id' do
 @meetup = Meetup.find(params[:id])
-erb :show
+erb :'meetups/show'
+end
+
+get '/meetups' do
+  @meetup = Meetup.all.order(name: :asc)
+  erb :'meetups/index'
 end
 
 
