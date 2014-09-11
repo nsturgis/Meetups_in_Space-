@@ -1,3 +1,8 @@
 .bundle
 .DS_store
 .env
+SESSION_SECRET='super secret'
+
+GITHUB_KEY= 94b8414da581be5cc844
+GITHUB_SECRET= dd7eadc97e666a8e38da6ca63cb7a815672e8c2a
+
