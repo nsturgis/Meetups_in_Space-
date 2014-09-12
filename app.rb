@@ -96,10 +96,4 @@ binding.pry
   end
 end
 
-# get '/meetups/:meetup_id/details' do
-
-#   meetup = Meetup.find(params[:meetup_id])
-#   @membership = meetup.users
-# erb :'/meetups/details'
-
 
